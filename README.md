@@ -21,7 +21,7 @@ That's it, so I create this package for my projects to re-use. Well, if you want
 For Laravel 6.0+:
 
 ```
-$ composer require "sky9s/laravel-tinymce-simple-imageupload:~1.0"
+$ composer require sky9s/laravel-tinymce-simple-imageupload
 ```
 
 ```
