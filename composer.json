@@ -1,0 +1,38 @@
+{
+    "name": "sky9s/laravel-tinymce-simple-imageupload",
+    "description": "Simple image upload for TinyMCE in Laravel6.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel 6",
+        "tinymce",
+        "image upload",
+        "php"
+    ],
+    "homepage": "https://github.com/sky9s/laravel-tinymce-simple-imageupload",
+    "authors": [
+        {
+            "name": "Myeongjin Choi",
+            "email": "sky9s@naver.com",
+            "homepage": "https://github.com/sky9s/laravel-tinymce-simple-imageupload"
+        }
+    ],
+    "require": {
+        "illuminate/support": "6.*",
+        "php" : ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sky9s\\Tinymce\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sky9s\\Tinymce\\TinymceServiceProvider"
+            ]
+        }
+    }
+}
